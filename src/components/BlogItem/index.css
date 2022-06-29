@@ -1,0 +1,35 @@
+/* Write your CSS code here */
+.list-container {
+  list-style-type: none;
+}
+.title {
+  font-family: 'Roboto';
+  color: #12022f;
+  font-weight: 600;
+  font-size: 20px;
+}
+.description {
+  font-family: 'Roboto';
+  color: #9aa5b1;
+  font-size: 14px;
+}
+.publishedDate {
+  font-family: 'Roboto';
+  color: #9aa5b1;
+  font-size: 14px;
+}
+.title-publishedDate {
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (min-width: 992px) {
+  .title {
+    font-size: 24px;
+  }
+  .description {
+    font-size: 17px;
+  }
+  .publishedDate {
+    font-size: 17px;
+  }
+}
